@@ -1,0 +1,28 @@
+    1  sudo pro attach C145hKi6vAKr44RVTe7fJZVqJVepRJ
+    2  sudo pro detach
+    3  sudo pro attach C145hKi6vAKr44RVTe7fJZVqJVepRJ
+    4  exit
+    5  sudo apt-get update
+    6  exit
+    7  ls -l
+    8  cd 'Рабочий стол'/
+    9  ды
+   10  ls
+   11  cd python_exam/
+   12  ls
+   13  sudo apt update
+   14  mysql
+   15  sudo apt install mysql-server
+   16  sudo systemctl status mysql
+   17  mysql
+   18  sudo mysql_secure_installation
+   19  sudo mysql -u root -p
+   20  echo "Собаки\nКошки\nХомяки" > "Домашние животные"
+   21  cat "Домашние животные" "Вьючные животные" > "Друзья человека"
+   22  echo "Лошади\nВерблюды\nОслы" > "Вьючные животные"
+   23  cat "Домашние животные" "Вьючные животные" > "Друзья человека"
+   24  cat "Друзья человека"
+   25  mkdir Друзья
+   26  mv "Друзья человека" Друзья/
+   27  history
+   28  history > history.txt

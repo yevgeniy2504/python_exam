@@ -1,0 +1,54 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Дистрибутивы / установщики
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.egg-info/
+*.tar.gz
+
+# Файлы PyInstaller
+*.manifest
+*.spec
+
+# Файлы Jupyter Notebook
+.ipynb_checkpoints
+
+# Файлы окружения
+.env
+.venv
+env/
+venv/
+ENV/
+myenv/
+/myenv/
+
+# Файлы Spyder
+.spyderproject
+.spyproject
+
+# Файлы Rope
+.ropeproject
+
+# Файлы mkdocs
+/site
+
+# Файлы mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Файлы Pyre
+.pyre/
