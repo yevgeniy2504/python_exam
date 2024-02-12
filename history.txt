@@ -1,0 +1,19 @@
+   13  sudo apt update
+   14  mysql
+   15  sudo apt install mysql-server
+   16  sudo systemctl status mysql
+   17  mysql
+   18  sudo mysql_secure_installation
+   19  sudo mysql -u root -p
+   20  echo "Собаки\nКошки\nХомяки" > "Домашние животные"
+   21  cat "Домашние животные" "Вьючные животные" > "Друзья человека"
+   22  echo "Лошади\nВерблюды\nОслы" > "Вьючные животные"
+   23  cat "Домашние животные" "Вьючные животные" > "Друзья человека"
+   24  cat "Друзья человека"
+   25  mkdir Друзья
+   26  mv "Друзья человека" Друзья/
+   27  sudo dpkg -i ./gimp.deb
+   28  sudo dpkg -r gimp
+   
+   29  history
+   30  history > history.txt
